@@ -7,8 +7,9 @@ It includes the following python files:
 [1] gen_modalities.py: generate dataset for flair, T1, T1ce, T2 in order to be stacked together to create input where each sample has the four images
 [2] avoid_overfitting.py: Truncate the whole black images to avoid overfitting
 [3] data_aug.py: augmentation of dataset by several techniques
-[3] model.py: architecture which is based on U-Net[1]
-[4] train.py: train and test the dataset on single label of tumors, included in BraTS 2017 dataset
+[4] preprocess.py: shuffling and parsing data
+[5] model.py: architecture which is based on U-Net[1]
+[6] train.py: train and test the dataset on single label of tumors, included in BraTS 2017 dataset
 
 The project includes the pretrained model in order to avoid the time consumed in training from start point with random initialization.
 
